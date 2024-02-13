@@ -1,0 +1,134 @@
+ ul {
+  list-style-type: horizontal;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+li  {
+  display: inline;
+
+
+}
+li a {
+  color: white;
+
+}
+
+.subtext {
+  color: rgba(245, 245, 245, 0.97);
+  font-size: 18px;
+}
+.Maintext {
+  color: white;
+  font-size: 24px;
+
+}
+html {
+  background-color: rgb(176, 176, 225);
+}
+.started-button  {
+  background-color: white;
+  color: #060686;
+  width: 120px;
+  height: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+
+
+}
+.intro-text {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+.h2-text {
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+
+}
+.header-image {
+  width: 45%;
+  height: 500px;
+  margin-left: 600px;
+;
+}
+.button-container {
+  display: flex;
+
+
+}
+.name-container {
+  display: flex;
+  margin-left: 100px;
+  color: white;
+
+}
+.learn-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: menulist-button;
+
+  text-decoration: none;
+  color: #b0b0e1;
+}
+ #animationContainer {
+   position: relative;
+   width: 500px;
+   height: 300px;
+   background-color: lightblue;
+   margin: 50px auto;
+ }
+
+ #flower {
+   position: absolute;
+   top: 240px;
+   left: 10px;
+   width: 50px;
+   height: 50px;
+   background-color: pink;
+   border-radius: 50%;
+   transition: all 2s ease-in-out;
+ }
+
+ #car {
+   position: absolute;
+   top: 220px;
+   left: -100px;
+   width: 100px;
+   height: 60px;
+   background-color: #333;
+   transition: all 2s ease-in-out;
+ }
+
+ #house {
+   position: absolute;
+   top: 220px;
+   right: -100px;
+   width: 100px;
+   height: 120px;
+   background-color: #a0522d;
+   transition: all 2s ease-in-out;
+ }
+ .flower-amount-input {
+ text-align: right;
+ }
+ .right-align-td {
+   text-align: right;
+ }
+ #gif-creditcard {
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNnN2loY2FrZjR3YmF6aGEzenh6YW9hbm1kcmR2ZmE5NWg0Mm9lMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2YOtFHtQKC22IhEc/giphy.gif');
+   background-size: cover;
+   z-index: -1;
+
+ }
+
+
+

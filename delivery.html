@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delivery - flower service</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<nav class="nav-bar">
+  <ul>
+    <li> <a href="index.html"> Home</a> </li>
+    <li> <a href="about_us.html"> about us</a> </li>
+    <li> <a href="flower_pricing.html" > Pricing</a> </li>
+    <li> <a href="delivery.html" >Delivery </a> </li>
+  </ul>
+
+</nav>
+<h1 class="Maintext"> Delivery</h1>
+<table>
+  <tr>
+    <td>
+      <p>
+        We deliver flowers to your doorstep, no matter where you are. Our delivery service is available 24/7, and we guarantee that your flowers will arrive fresh and beautiful. We also offer same-day delivery for orders placed before 12 PM.
+      </p>
+
+    </td>
+    <td>
+      <form action="/submit-form" method="POST"></form>
+      <p> Chose your delivery method:</p>
+      <label for="checkbox">GLS </label>
+      <input align="right" type="checkbox" id="checkbox" name="GLS" value="checked"> <br>
+      <label for="post-nord">Post Nord </label>
+      <input  type="checkbox" id="post-nord" name="post-nord" value="checked"> <br>
+      <label for="bike">Bike delivery  </label>
+      <input type="checkbox" id="bike" name="bike" value="checked">
+
+
+    </td>
+    <td>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="right-align-td">
+      how many flowers?
+    </td>
+    <td >
+      <input class="flower-amount-input" type="number" id="quantity" name="quantity" min="1" max="50" >
+    </td>
+    <td>
+      <button   class="checkout-button"  onclick="window.location.href = 'checkout.html'" > checkout</button>
+    </td>
+  </tr>
+
+</table>
+
+</body>
+</html>
